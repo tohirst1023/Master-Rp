@@ -1231,12 +1231,15 @@ body.not-scroll {
   max-width: 888px;
   -o-object-fit: contain;
   object-fit: contain;
-  /* position: relative; */
+  position: relative;
   z-index: 1;
   width: 405px;
   bottom: -92px;
   right: -82px;  
 }
+
+
+
 .start-play .start-play__youtube-button {
   align-items: center;
   background: linear-gradient(93.73deg, #009dea, #00cbe9);
@@ -1333,6 +1336,8 @@ body.not-scroll {
     max-height: none;
     max-width: none;
     width: 100%;
+    bottom: 32px;
+    left: 4px;
 
   }
   .start-play .start-play__content {
